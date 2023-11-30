@@ -1,0 +1,12 @@
+CREATE DATABASE students;
+
+USE students;
+
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    roll_no INT NOT NULL,
+    marks INT NOT NULL,
+    age INT NOT NULL,
+    class VARCHAR(255) NOT NULL
+);
